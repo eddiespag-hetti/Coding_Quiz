@@ -1,0 +1,54 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+/* Main Quiz section */
+.header {
+    padding: 36px 24px 38px 24px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 3px solid #777;
+    min-height: 600px;
+    background-color: #e6ecf5;
+  
+
+}
+
+.header-main {
+    color: darkolivegreen;
+}
+
+.rules-para {
+
+    line-height: 1.5;
+    padding: 20px 36px;
+    text-align: center;
+}
+
+.button {
+font-size: 20px;
+padding: 12px 12px;
+background-color: forestgreen;
+color: #e6ecf5;
+border-radius: 15px;
+
+}
+
+.btn-start {
+
+}
+
+/* High Scores Section */
+
+.btn-go-back {
+display: 
+  
+}
