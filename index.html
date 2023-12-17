@@ -10,18 +10,34 @@
 
 
 <body>
+
     <header class="header">
+
         <a class="link-highscores" href="index-02.html">View Highscores</a>
+        <div id="timer">Timer: 45</div>
     </header>
+
     <div class="quiz-box container">
         <h1 class="header-main">Coding Quiz Challenge</h1>
-        <p class="rules-para">Try to answer the following code-related questions within the time limit. 
+        <p class="rules-para">Try to answer the following code-related questions within the time limit.
             Keep in mind
-            that incorrect answers will penalize your score/time by 15 seconds. 
+            that incorrect answers will penalize your score/time by 15 seconds.
             Choose <strong>wisely</strong>!</p>
         <p class="questions-para">This is where the questions should be</p>
+        <div class="quiz-questions">
+            <h2 class="question"></h2>
+            <button id="btn-1" class="btn-answer"></button>
+            <button id="btn-2" class="btn-answer"></button>
+            <button id="btn-3" class="btn-answer"></button>
+            <button id="btn-4" class="btn-answer"></button>
+        </div>
+        <div class="initials-score">
+            <input type="text">
+            <button class="savebtn">Save</button>
+        </div>
         <button class="btn-start button">Start Game</button>
     </div>
 </body>
+<script src="assets/script.js"></script>
 
 </html>

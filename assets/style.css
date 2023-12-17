@@ -4,9 +4,24 @@
 }
 
 
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#timer {
+    font-size: 26px;
+    color: #6c269e;
+    font-weight: bold;
+}
+
 /* Main Quiz section */
 .header {
     padding: 36px 24px 38px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .container {
@@ -23,7 +38,8 @@
 }
 
 .header-main {
-    color: darkolivegreen;
+    color: #5c62fa;
+    font-size: 36px;
 }
 
 .rules-para {
@@ -34,11 +50,13 @@
 }
 
 .button {
+
 font-size: 20px;
 padding: 12px 12px;
-background-color: forestgreen;
-color: #e6ecf5;
+background-color: #9027db;
+color: rgb(229, 246, 231);
 border-radius: 15px;
+cursor: pointer;
 
 }
 
@@ -49,6 +67,10 @@ border-radius: 15px;
 /* High Scores Section */
 
 .btn-go-back {
-display: 
+
   
+}
+
+.quiz-questions, .initials-score {
+    display: none;
 }
