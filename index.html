@@ -18,24 +18,30 @@
     </header>
 
     <div class="quiz-box container">
-        <h1 class="header-main">Coding Quiz Challenge</h1>
-        <p class="rules-para">Try to answer the following code-related questions within the time limit.
-            Keep in mind
-            that incorrect answers will penalize your score/time by 15 seconds.
-            Choose <strong>wisely</strong>!</p>
-        <p class="questions-para">This is where the questions should be</p>
-        <div class="quiz-questions">
+        <div id="welcome" class="container">
+            <h1 class="header-main">Coding Quiz Challenge</h1>
+            <p class="rules-para">Try to answer the following code-related questions within the time limit.
+                Keep in mind
+                that incorrect answers will penalize your score/time by 10 seconds.
+                Choose <strong>wisely</strong>!</p>
+            <p class="questions-para">This quiz is multiple-choice, Goodluck!🤞🏻 </p>
+            <button class="btn-start button">Start Game</button>
+
+        </div>
+        <div class="quiz-questions hideContainers">
             <h2 class="question"></h2>
             <button id="btn-1" class="btn-answer"></button>
             <button id="btn-2" class="btn-answer"></button>
             <button id="btn-3" class="btn-answer"></button>
             <button id="btn-4" class="btn-answer"></button>
         </div>
-        <div class="initials-score">
-            <input type="text">
-            <button class="savebtn">Save</button>
+        <div class="player-score hideContainers">
+            <label for="user">Enter your inititals</label>
+            <input id="user" type="text">
+            <button class="save-btn">Save</button>
         </div>
-        <button class="btn-start button">Start Game</button>
+
+
     </div>
 </body>
 <script src="assets/script.js"></script>

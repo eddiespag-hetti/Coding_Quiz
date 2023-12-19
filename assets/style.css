@@ -1,8 +1,11 @@
 * {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
 }
 
+body {
+    background-color: #ffffff;
+}
 
 .page-header {
     display: flex;
@@ -24,6 +27,7 @@
     align-items: center;
 }
 
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -32,8 +36,8 @@
     align-items: center;
     outline: 3px solid #777;
     min-height: 600px;
-    background-color: #e6ecf5;
-  
+    background-color: #cacdd2e0;
+
 
 }
 
@@ -43,34 +47,46 @@
 }
 
 .rules-para {
-
+    font-size: 18px;
     line-height: 1.5;
     padding: 20px 36px;
     text-align: center;
 }
 
+.questions-para {
+    font-size: 16px;
+    color: #373636;
+    text-decoration: double;
+}
+
 .button {
 
-font-size: 20px;
-padding: 12px 12px;
-background-color: #9027db;
-color: rgb(229, 246, 231);
-border-radius: 15px;
-cursor: pointer;
+    font-size: 20px;
+    padding: 12px 12px;
+    background-color: #9027db;
+    color: rgb(229, 246, 231);
+    border-radius: 15px;
+    cursor: pointer;
 
 }
 
-.btn-start {
+.btn-answer {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding: 8px 8px;
+    color: #e6ecf5;
+    background-color: #6c269e;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+}
 
+
+
+
+.hideContainers {
+    display: none;
 }
 
 /* High Scores Section */
-
-.btn-go-back {
-
-  
-}
-
-.quiz-questions, .initials-score {
-    display: none;
-}
