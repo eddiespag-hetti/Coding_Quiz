@@ -14,18 +14,16 @@ function showPlayerScore() {
 showPlayerScore();
 
 
-var deleteScores = document.querySelector('.btn-clear');
+var deleteScoresEl = document.querySelector('#btn-clear');
 
-// function to clear highscores 
-function clearScores(event) {
-    localStorage.removeItem('high-scores');
+// Function to clear highscores 
+function clearScores() {
+console.log('clicked')
+
+    
 };
 
-document.querySelector('.btn-clear').addEventListener("click", clearScores);
 
-
-
-
-
+deleteScoresEl.addEventListener("click", clearScores);
 
 
