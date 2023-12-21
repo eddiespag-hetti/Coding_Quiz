@@ -36,7 +36,7 @@ body {
     align-items: center;
     outline: 3px solid #777;
     min-height: 600px;
-    background-color: #cacdd2e0;
+    background-color: #e1e1e2e0;
 
 
 }
@@ -83,7 +83,14 @@ body {
 }
 
 
-
+.high-scores-list {
+    list-style: square;
+    font-family: inherit;
+    font-size: 18px;
+    color: #373636;
+    padding-bottom: 18px;
+    
+}
 
 .hideContainers {
     display: none;
