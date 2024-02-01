@@ -14,9 +14,11 @@ While designing this application I have learnt the importance of utilizing Clien
 
 ## Installation
 
-To use this application you need to open the following link in your browser - 
+To use this application you need to open the following link in your browser 
 
-https://eddiedpayne.github.io/Coding_Quiz/
+
+ https://eddiespag-hetti.github.io/Coding_Quiz/ 
+
 
 
 ## Usage

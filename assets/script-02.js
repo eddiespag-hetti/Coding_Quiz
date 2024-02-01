@@ -15,9 +15,9 @@ showPlayerScore();
 
 
 
+var deleteScoresEl = document.querySelector('.btn-clear');
 // Function to clear highscores 
 function clearScores() {
-    var deleteScoresEl = document.querySelector('.btn-clear');
     console.log('clicked')
     
 window.localStorage.clear()
