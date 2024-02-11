@@ -29,23 +29,23 @@ You will then be asked a series of coding related multiple choice questions. Tak
 
     
    
- ![alt text](assets/img/screenshot-01.png)
+ ![alt text](assets/img/Screenshot-01.png)
 
 
 
 
- ![alt text](assets/img/screenshot-02.png)
+ ![alt text](assets/img/Screenshot-02.png)
 
 
 
   
   
-  ![alt text](assets/img/screenshot-03.png)
+  ![alt text](assets/img/Screenshot-03.png)
 
 
 
    
-![alt text](assets/img/screenshot-04.png)
+![alt text](assets/img/Screenshot-04.png)
 
 
 
